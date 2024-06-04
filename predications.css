@@ -1,0 +1,161 @@
+
+:root{
+    --couleur1: #7700a7;
+--couleur2: #ad05cb;
+--couleur3: #f5c600;
+--couleur4: #dab000;
+--couleur5: #f2f2f2f2;
+}
+section.box-parent-predications{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--couleur2);
+    padding-top: 100px;
+   
+}
+
+section.box-parent-predications h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* div.box-predications{
+
+} */
+
+div.box-predications h4{
+    text-align: center;
+    background-color: white;
+    padding: 24px 0px;
+}
+
+
+.list-predications{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-audio01{
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    align-items: center;
+   padding: 0px 20px;
+   background-color: #dab000;
+   margin-bottom: 15px;
+
+}
+
+.box-audio01 .icone{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color:#ad05cb;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  
+   
+
+
+}
+
+.box-audio01 p{
+    color: white;
+}
+
+.box-audio01 .icone i{
+    color: white; 
+}
+
+.telechargement i{
+    color: white;
+    font-size: 22px;
+}
+
+
+.titrage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:517px) {
+    .list-predications{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .box-audio01{
+        display: flex;
+        gap: 5px;
+        height: 50px;
+        align-items: center;
+       padding: 0px 10px;
+       background-color: #dab000;
+       margin-bottom: 15px;
+    
+    }
+
+    .box-audio01 .icone{
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+        background-color:#ad05cb;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+    .box-audio01 .icone i{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:345px){
+    .box-audio01{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+        align-items: center;
+       padding: 10px 10px;
+       background-color: #dab000;
+       /* margin-bottom: 15px; */
+       margin: 10px 10px;
+    
+    }  
+    i{
+        font-size: 10px;
+    }
+
+    .box-audio01 p{
+        font-size: 10px;
+    }
+
+    .telechargement{
+        display: flex;
+        justify-self:center ;
+        align-self: center;
+    }
+}
+
+
+div.logo_pied{
+    background-color: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+div.logo_pied img{
+              width: 100px;
+              object-fit: cover;
+}

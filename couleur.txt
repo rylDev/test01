@@ -1,0 +1,5 @@
+--couleur1: #7700a7;
+--couleur2: #ad05cb;
+--couleur3: # f5c600;
+--couleur4: #dab000;
+--couleur5: #f2f2f2f2;
